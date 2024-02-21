@@ -1,0 +1,78 @@
+
+
+.container--form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+ 
+}
+
+.formStyle{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow:  5px 10px 30px rgb(12, 12, 12);
+    width: 100%;
+    max-width: 480px;
+    
+}   
+
+.grupo{
+    display: flex;
+}  
+
+.descri__form{
+    padding: 1em 0 1em 0;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 700;
+    
+    
+}
+
+.input{
+     width: 350px;
+     padding: 1em 0;
+     border: 1px solid;
+     border-radius: 6px;
+    
+}
+
+.input::placeholder{
+    text-align: center;
+    font-size: 1rem;
+}
+ 
+.botao{
+    width: 15vw;
+    min-width: 8vw;
+    margin-top: 1em;
+    border-radius: 6px;
+    height: 5vh;
+    background-color: rgb(72, 35, 218);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1em;
+    color: aliceblue;
+}
+
+.botao:hover{
+    background-color: rgb(224, 176, 0);
+    width: 18vw;
+    transition: .5s;
+    transform: rotate(10);
+    
+}
+
+#mensagem-erro{
+    color: red;
+    list-style: none;
+}

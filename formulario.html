@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Bellas hair ||</title>
+</head>
+<body>
+    <header>
+        <img src="./img/cabelo-feminino-comprido-preto-e-cacheado (2).png" alt="">
+        <nav class="cabecalho">
+            <ul>
+                <li><a href="index.html">Clientes</a></li>
+                <li><a href="formulario.html">Cadastrar Clientes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container--form" id="form--">
+        <form id="form" class="formStyle">
+            <ul id="mensagem-erro"></ul>
+        <label for="nome" class="descri__form">insira aqui o seu nome</label>
+        <input type="text" id="nome" name="nome" class="input" placeholder="Seu Nome Aqui">
+        <label for="data" class="descri__form">insira a data que deseja</label>
+        <input type="date"  id="data" name="data" class="input" placeholder="Insira aqui a data" >
+        <label for="servico" class="descri__form">insira o serviço que deseja</label>
+        <input type="text" id="servico" name="servico" class="input" placeholder="Insira seu serviço">
+        <label for="horario"  class="descri__form">insira o horario que deseja</label>
+        <input type="time" id="horario" name="horario" class="input" placeholder="Insira o horario" >
+    </form>
+        <button class="botao">Inserir</button>
+    </section>
+    <script type="module" src="./js/index.js"></script>
+    <script type="module" src="./js/service.js"></script>
+</body>
+</html>

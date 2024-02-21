@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Bellas Hair</title>
+
+</head>
+<body>
+
+    <header>
+        <img src="./img/cabelo-feminino-comprido-preto-e-cacheado (2).png" alt="">
+        <nav class="cabecalho">
+            <ul>
+                <li><a href="index.html">Clientes</a></li>
+                <li><a href="formulario.html">Cadastrar Clientes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <h1 class="container__titulo">Bellas Hair, <br> seja bem vindo!</h1>
+    
+    <label for="filtrar-tabela">Filtre:</label>
+    <input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome da(o) cliente">
+       <table class="tabela">
+        <thead class="tabela__head">
+            <tr id="clientes--" class="tabela__head-clientes">
+                <th scope="col" class="clientes">Nome</th>
+                <th scope="col" class="clientes">Data</th>
+                <th scope="col" class="clientes">Serviço</th>
+                <th scope="col" class="clientes">Horário</th>
+            </tr>
+        </thead>
+        <tbody id="add-tabela" class="tabela__corpo" data-tabela>
+           
+        </tbody>
+       </table>
+    </section>
+    
+    <script type="module" src="./js/service.js"></script>
+    <script type="module" src="./js/filtra.js"></script>
+    <script type="module" src="./js/remove.js"></script>
+    <script type="module" src="./js/exibeDados.js"></script>
+    </body>
+</html>

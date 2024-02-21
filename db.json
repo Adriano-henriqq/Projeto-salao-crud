@@ -1,0 +1,11 @@
+{
+  "clientes": [
+    {
+      "nome": "corte de cabelo",
+      "data": "2023-10-21",
+      "servico": "corte a maquina",
+      "horario": "10:00",
+      "id": 3
+    }
+  ]
+}

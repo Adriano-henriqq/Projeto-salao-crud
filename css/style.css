@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;;
+}
+body{
+   background-color: #F6F4EB;
+    /* background-image: url(../img/background-2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2em;
+    box-shadow:  5px 10px 30px rgb(12, 12, 12);
+    margin: 0 auto;
+    padding: 3em;
+    width: 100%;
+    height: auto;
+    opacity: 90%;
+    margin-top: 4rem;
+
+   
+}
+
+.container__titulo{
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    font-size: 2rem;
+}
+.container__titulo::before{
+    content: url(../img/cabelo-feminino-comprido-preto-e-cacheado\ \(3\).png);
+    position: relative;
+    top: 5px;
+    padding: .5em;
+}
+header{
+    display: flex;
+    background-color: #9DB2BF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+header img {
+    width: 40px;
+}
+    
+.cabecalho ul{
+    display: flex;
+    justify-content: space-around;
+    
+    list-style: none;
+    
+}
+
+.cabecalho ul li a {
+    color: #fdfdfd;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 1rem;
+}
+.cabecalho ul li {
+
+}
+
+.tabela {
+    border-radius: 16px;
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: center;
+    width: 100vw;
+    max-width: 300px;
+    
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.clientes, .tabela__corpo-clientes, .tabela__corpo-clientes-nome{
+    /* border: 1px solid #555; */
+    padding: 1em;
+    border: none;
+
+}
+.clientes{
+    background-color:#9DB2BF;
+    padding: 5px;
+}
+.tabela__corpo-clientes, 
+.tabela__corpo-clientes-nome{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+    
+}
+
+#filtrar-tabela {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.invisivel{
+    display: none;
+}
+.remove-tr{
+    opacity: 0;
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .container{
+        width: 100%;
+        max-width: 950px;
+    }
+    .tabela{
+        max-width: 800px;
+    }
+    
+}
